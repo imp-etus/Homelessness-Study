@@ -1,4 +1,5 @@
-# Overview
+# US Homelessness Modeling
+## Overview
 This repository holds a DATA 3320 project exploring how to model the relationship between market factors and homelessness. Using Housing & Urban Development data, we aim to explore the relation between market factors & homelessness, as well as models of community-level homelessness & see if we can outperform HUD models on the topic.
 
 ## Data
