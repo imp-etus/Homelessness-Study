@@ -7,7 +7,11 @@ The raw data for the file is taken from the 2019 Market Predictors of Homelessne
 
 ### Data Processing
 
-In order to prepare the data, we used a Colab notebook, referred to here as Data Preparation.ipynb. We renamed most columns to readable names, as well as removing all years with incomplete data sets. This left us with 2017 data. Furthermore, we had to convert all homelessness data to homelessness per 10,000 people, because otherwise dense urban areas would have disproportionate homelessness predictors & we wouldn't be able to compare different districts 
+In order to prepare the data, we used a Colab notebook, referred to here as Data Preparation.ipynb. We renamed most columns to readable names, as well as removing all years with incomplete data sets. This left us with 2017 data. Furthermore, we had to convert all homelessness data to homelessness per 10,000 people, because otherwise dense urban areas would have disproportionate homelessness predictors & we wouldn't be able to compare different districts.
+
+## Analysis
+
+We used ridge & lasso regression models to predict homelessness rates, and our model emphasized district type in our model (for example, all of our models use district type as a multiplicative factor, meaning it's considered separate from all other things. This helps the model consider each district type as different cases unto themselves.) Details can be found under Analysis.ipynb.
 
 ## Requirements
 
